@@ -17,7 +17,6 @@ makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
 
         ## define getter and setter functions for the matrix and its inverse.
-        ## when only one line is required for a function, skip the curly braces.
         set <- function(y) {
                   x <<- y
                 inv <<- NULL
